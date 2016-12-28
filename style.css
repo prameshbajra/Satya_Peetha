@@ -64,7 +64,8 @@ a:hover {}
     clear: both;
     width: 980px;
     height: 330px;
-    margin: 0 auto;
+    margin-top: 8px;
+      margin-bottom:8px;
     padding: 0px;
     background: url(images/img09.jpg) no-repeat left top;
 }
