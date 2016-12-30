@@ -364,3 +364,44 @@ a:hover {}
 #footer a {
     color: #8A8A8A;
 }
+.mid .post .entry{
+    float:left;
+}
+.picgall p{
+    font-size:2.2em;
+    text-align: center;
+    margin-top: -55px;
+   line-height: 180%
+    
+}
+.picgall p{
+    margin-left: 190px;
+     color: #82050B;
+}
+.gally{
+    width:350px;
+    height:330px;
+    float: left;
+    background-color: white;
+    margin-left: 73px;
+    border: 1px solid black;
+    margin-top: -30px;
+}
+.c12 img{
+    float: left;
+     width:350px;
+    height:200px;
+}
+.c6 img{
+    float: left;
+     width:174px;
+    height:127px;
+    margin-top: 2px;
+}
+.c6i img{
+    float: left;
+     width:174px;
+    height:127px;
+    margin-top: 2px;
+    margin-left: 2px
+}
