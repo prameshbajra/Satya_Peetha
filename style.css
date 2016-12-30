@@ -65,7 +65,7 @@ a:hover {}
     width: 980px;
     height: 330px;
     margin-top: 8px;
-      margin-bottom:8px;
+    margin-bottom: 8px;
     padding: 0px;
     background: url(images/img09.jpg) no-repeat left top;
 }
@@ -337,27 +337,6 @@ a:hover {}
 #sidebar a:hover {
     text-decoration: underline;
     color: #8A8A8A;
-}
-
-
-/* Calendar */
-
-#calendar {}
-
-#calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
 }
 
 
