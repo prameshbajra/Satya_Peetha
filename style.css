@@ -411,3 +411,148 @@ a:hover {}
     margin-top: 2px;
     margin-left: 2px
 }
+
+
+/*slider css begins*/
+
+
+/* jssor slider arrow navigator skin 02 css */
+
+
+/*
+        .jssora02l                  (normal)
+        .jssora02r                  (normal)
+        .jssora02l:hover            (normal mouseover)
+        .jssora02r:hover            (normal mouseover)
+        .jssora02l.jssora02ldn      (mousedown)
+        .jssora02r.jssora02rdn      (mousedown)
+        .jssora02l.jssora02lds      (disabled)
+        .jssora02r.jssora02rds      (disabled)
+        */
+
+.jssora02l,
+.jssora02r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: url('img/a02.png') no-repeat;
+    overflow: hidden;
+}
+
+.jssora02l {
+    background-position: -3px -33px;
+}
+
+.jssora02r {
+    background-position: -63px -33px;
+}
+
+.jssora02l:hover {
+    background-position: -123px -33px;
+}
+
+.jssora02r:hover {
+    background-position: -183px -33px;
+}
+
+.jssora02l.jssora02ldn {
+    background-position: -3px -33px;
+}
+
+.jssora02r.jssora02rdn {
+    background-position: -63px -33px;
+}
+
+.jssora02l.jssora02lds {
+    background-position: -3px -33px;
+    opacity: .3;
+    pointer-events: none;
+}
+
+.jssora02r.jssora02rds {
+    background-position: -63px -33px;
+    opacity: .3;
+    pointer-events: none;
+}
+
+
+/*slider css ends*/
+
+.templeimages {
+    padding-top: 30px;
+    width: 580px;
+    height: 700px;
+    overflow: scroll;
+}
+
+.imageholder {
+    float: left;
+    width: 240px;
+    height: 240px;
+    background-color: #fff;
+    box-shadow: 3px 3px 1px #b7afaf;
+    margin-top: 10px;
+    margin-left: 33px;
+    margin-bottom: 33px;
+    border: 1px;
+}
+
+.imageholder h3 {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    color: #6d6969;
+    text-decoration: underline;
+}
+
+.feedback {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.outer {
+    float: right;
+    width: 580px;
+    padding: 15px 0px 0px 0px;
+}
+
+.fc12 {
+    font-size: 35px;
+    padding-left: 20px;
+    font-family: cursive;
+    color: black;
+}
+
+.fc12 p {
+    font-size: 10px;
+    font-family: cursive;
+}
+
+.outer {
+    border: 1px solid black;
+    background-color: beige;
+    margin-top: 65px;
+}
+
+.comment {
+    margin-left: 10px
+}
+
+input#button {
+    padding: 8px 25px;
+    background-color: burlywood;
+    border: 1px solid #33842a;
+    color: black;
+    font-size: 1.1em;
+    border-radius: 10px;
+}
+
+.button {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
